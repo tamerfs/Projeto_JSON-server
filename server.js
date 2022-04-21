@@ -1,11 +1,12 @@
-// ou era criar um diretorio src e por todo o codigo dentro.
-// como o codigo ja estava criado optei pelo index.js
-// e o procfile com o caminho para o index.js
-
-
 const express = require('express');
+const path = require('path');
+const nomeApp = process.env.npm_package_name;
 const app = express();
 
-app.get('/',(req,res) => res.send('Ola Tester!'));
+app.use(express.static(`${__dirname}/dist/${nomeApp}`));
 
-app.listen(process.env.PORT /3001);
+app.get('/*', (req, res) => {
+res.sendFile(path.join(`${__dirname}/dist/${nomeApp}/index.html`));
+});
+
+app.listen(process.env.PORT || 8080);
