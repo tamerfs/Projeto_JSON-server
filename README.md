@@ -4,7 +4,9 @@
  backend editado para tentar subir no HEROKU
 
  
-Projeto ogirinal backend localhost 3001 funciona  projeto GORGUN 2 mas necessario subir ele para um host e usar ele aparte para as palicações salvas no vercel e no GHpages.
+Projeto ogirinal backend localhost porta 3004 ele sobe com o comando npm start setado no pacage mas falta configurar ainda o index.js
+
+Necessario subir ele para um host e usar ele aparte para as palicações salvas no vercel e no GHpages.
 
 esse projeto JSON server é uma copia dele com modificações com um index.js ou um server.js para subir no HEROKU.
 
