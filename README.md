@@ -4,7 +4,7 @@
  backend editado para tentar subir no HEROKU
 
  
-Projeto ogirinal backend localhost porta 3004 ele sobe com o comando npm start setado no pacage mas falta configurar ainda o index.js
+Projeto ogirinal backend localhost porta 3004 ele sobe com o comando npm start setado no package 
 
 Necessario subir ele para um host e usar ele aparte para as palicações salvas no vercel e no GHpages.
 
